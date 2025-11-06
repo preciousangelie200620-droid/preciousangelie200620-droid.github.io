@@ -209,11 +209,11 @@ span{
 
 .typing-text span::after{
     content: "";
-    background-color: rgb(160, 206, 161);
+    background-color: rgba(141, 181, 141, 0.564);
     position: absolute;
     width: calc(100% + 8px);
     height: 100%;
-    border-left: 3px solid rgb(160, 206, 161);
+    border-left: 3px solid rgba(141, 181, 141, 0.564);
     right: -8;
     animation: cursor 0.6s infinite;
 }
